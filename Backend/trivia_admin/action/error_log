@@ -1,0 +1,31 @@
+[27-Jul-2014 14:38:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nomi001/public_html/trivia_admin/action/login_process.php:15) in /home/nomi001/public_html/trivia_admin/action/login_process.php on line 16
+[27-Jul-2014 14:39:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nomi001/public_html/trivia_admin/action/login_process.php:15) in /home/nomi001/public_html/trivia_admin/action/login_process.php on line 16
+[27-Jul-2014 14:39:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nomi001/public_html/trivia_admin/action/login_process.php:15) in /home/nomi001/public_html/trivia_admin/action/login_process.php on line 16
+[27-Oct-2014 20:49:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sec_cat_parent' cannot be null' in /home/nomi001/public_html/trivia_admin/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_admin/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_admin/controllers/SecondCategory.php(17): Database->queryWithParamsArray('insert into sec...', Array)
+#2 /home/nomi001/public_html/trivia_admin/action/add_sec_category.php(37): SecondCategory->insert('American Footba...', 'football.png', 'Y', NULL)
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_admin/controllers/Database.php on line 37
+[27-Oct-2014 20:52:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sec_cat_parent' cannot be null' in /home/nomi001/public_html/trivia_admin/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_admin/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_admin/controllers/SecondCategory.php(17): Database->queryWithParamsArray('insert into sec...', Array)
+#2 /home/nomi001/public_html/trivia_admin/action/add_sec_category.php(37): SecondCategory->insert('American Footba...', 'football.png', 'Y', NULL)
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_admin/controllers/Database.php on line 37
+[29-Oct-2014 18:29:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sec_cat_parent' cannot be null' in /home/nomi001/public_html/trivia_admin/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_admin/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_admin/controllers/SecondCategory.php(17): Database->queryWithParamsArray('insert into sec...', Array)
+#2 /home/nomi001/public_html/trivia_admin/action/add_sec_category.php(37): SecondCategory->insert(NULL, '', 'N', NULL)
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_admin/controllers/Database.php on line 37
+[21-Dec-2014 07:09:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sec_cat_parent' cannot be null' in /home/nomi001/public_html/trivia_admin/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_admin/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_admin/controllers/SecondCategory.php(17): Database->queryWithParamsArray('insert into sec...', Array)
+#2 /home/nomi001/public_html/trivia_admin/action/add_sec_category.php(37): SecondCategory->insert(NULL, '', 'N', NULL)
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_admin/controllers/Database.php on line 37

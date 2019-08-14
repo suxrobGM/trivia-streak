@@ -1,0 +1,80 @@
+[24-Jul-2014 23:53:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(28): Database->queryWithParamsArray('??????(SELECT *...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[24-Jul-2014 23:53:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(28): Database->queryWithParamsArray('??????(SELECT *...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '2')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[24-Jul-2014 23:53:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(28): Database->queryWithParamsArray('??????(SELECT *...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '3')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[24-Jul-2014 23:56:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(28): Database->queryWithParamsArray('??????(SELECT *...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[24-Jul-2014 23:57:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(28): Database->queryWithParamsArray('?????(SELECT * ...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[24-Jul-2014 23:58:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1221 Incorrect usage of UNION and ORDER BY' in /home/nomi001/public_html/trivia_service/controllers/Database.php:36
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(36): PDO->prepare('??????SELECT * ...')
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(28): Database->queryWithParamsArray('??????SELECT * ...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 36
+[25-Jul-2014 00:08:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1221 Incorrect usage of UNION and ORDER BY' in /home/nomi001/public_html/trivia_service/controllers/Database.php:36
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(36): PDO->prepare('??????SELECT * ...')
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(28): Database->queryWithParamsArray('??????SELECT * ...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 36
+[25-Jul-2014 00:11:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(34): Database->queryWithParamsArray('??????(SELECT *...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[25-Jul-2014 00:18:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(39): Database->queryWithParamsArray('??????SELECT * ...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[25-Jul-2014 00:18:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/nomi001/public_html/trivia_service/controllers/Database.php:37
+Stack trace:
+#0 /home/nomi001/public_html/trivia_service/controllers/Database.php(37): PDOStatement->execute(Array)
+#1 /home/nomi001/public_html/trivia_service/controllers/Questions.php(39): Database->queryWithParamsArray('??????SELECT * ...', Array)
+#2 /home/nomi001/public_html/trivia_service/get_questions.php(12): Questions->getQuestions('1', '2', '1')
+#3 {main}
+  thrown in /home/nomi001/public_html/trivia_service/controllers/Database.php on line 37
+[25-Jul-2014 00:24:08 UTC] PHP Fatal error:  Cannot use [] for reading in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 42
+[25-Jul-2014 00:25:40 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 38
+[25-Jul-2014 00:25:40 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 38
+[25-Jul-2014 00:25:40 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 40
+[25-Jul-2014 00:28:25 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'nomi001_tservie'@'localhost' (using password: YES) in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 36
+[25-Jul-2014 00:28:25 UTC] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 37
+[25-Jul-2014 00:28:25 UTC] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 37
+[25-Jul-2014 00:28:25 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 44
+[25-Jul-2014 00:28:25 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 44
+[25-Jul-2014 00:28:25 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/nomi001/public_html/trivia_service/controllers/Questions.php on line 46

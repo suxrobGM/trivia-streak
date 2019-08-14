@@ -1,0 +1,9 @@
+.rate, .rate b, .rate a {width: 100px; height: 20px; overflow: hidden; background: url(../img/star.gif);}
+.rate b {float: left; margin-bottom: -100%; background-color: #FDCE30;}
+.rate a {float: right; margin-left: -80px; text-indent: -1000%;}
+.rate a:hover {background-color: #01B509;}
+
+.rate2, .rate2 b, .rate2 a {width: 200px; height: 20px; overflow: hidden; background: url(../img/star.gif);}
+.rate2 b {float: left; margin-bottom: -100%; background-color: #FDCE30;}
+.rate2 a {float: right; margin-left: -180px; text-indent: -1000%;}
+.rate2 a:hover {background-color: #01B509;}

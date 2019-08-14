@@ -1,0 +1,1 @@
+Create mysql database with name 'triviadb'

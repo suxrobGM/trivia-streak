@@ -1,0 +1,2 @@
+[27-Oct-2014 21:50:22 UTC] PHP Warning:  unlink(../images/prize/Ruby_Round.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/nomi001/public_html/trivia_admin/ajax_data/delete_action.php on line 48
+[10-Oct-2017 08:27:53 UTC] PHP Warning:  unlink(../images/1st_level_categories/football.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/loadingw/public_html/trivia_admin/ajax_data/delete_action.php on line 20
